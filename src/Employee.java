@@ -15,4 +15,9 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
+
+    public void info(){
+        System.out.println(name + " " + position + " " + email + " " + phone + " " + salary + " " + age);
+    }
+
 }
